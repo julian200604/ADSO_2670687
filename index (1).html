@@ -105,17 +105,24 @@
                     <label for="password">contraseña</label>
                     <input type="password" placeholder="contraseña" minlength="6"><br><br>
                     <label for="date">fecha</label>
-                    <input type="date" id="start" name="trip-start" value="2023-07-22" min="2023-01-01" max="2023-12-31"s><br><br>
+                    <input type="date" id="start" name="trip-start" value="" min="2023-01-01" max="2023-12-31"s><br><br>
                     <label for="range">rango</label>
                     <input type="range"><br><br>
-                    <label for="radio button"><b><i>¿cual es su Genero?</i></b></label><br> 
-                     <label for="radio button"><font color="#COCOCO">Mujer</font></label>
-                       <input type="radio" name="hombre" value="mujer" id="mujer"><br> 
-                     <label for="radio button"><font color="#D4AF37">Hombre</font></label>   
-                       <input type="radio" name="mujer" value="hombre" id="mujer"> <br>
+                    <label for="radio "><b><i>¿cual es su Genero?</i></b></label><br> 
+                     <label for="radio "><font color="#COCOCO">hombre</font></label>
+                       <input type="radio" name="hombre" value="hombre" id="hombre" checked><br> 
+                     <label for="radio"><font color="#D4AF37">mujer</font></label>   
+                       <input type="radio" name="mujer" value="mujer" id="mujer" checked> <br>
                     <form action="upload.php" method="POST" enctype="multipart/form-data"></form>
                       <input type="file" name="archivo">
-                      <input type="submit" value="subir archivo">
+                      <input type="submit" value="subir archivo"><br><br>
+                    <label for="dog-name">escoja un nombre para su perro</label>
+                    <select name="dog-names" id="dog-name">
+                        <option value=""></option>
+                        <option value="perrini">perrini</option>
+                        <option value="laila">laila</option>
+                    </select><br><br>
+                    
                     <button value="registrar">Registrar</button>
             </body>
 
