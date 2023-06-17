@@ -72,15 +72,21 @@
                         <tr>
                             <th>Flujo normal</th>
                             <td><ol>
-                                <li>El usuario visita la pagina y hace clic en el boton iniciar sesión</li>
-                                <li></li>
+                                <li>El usuario visita la pagina y hace clic en el boton iniciar sesión.</li>
+                                <li>El usuario completa el formulario de registro, que incluye su nombre, dirección de correo electrónico y una contraseña segur o en caso de iniciar sesión solamente correo y contraseña.</li>
+                                <li>Airbnb envía un correo electrónico de verificación a la dirección de correo electrónico proporcionada por el usuario.</li>
+                                <li>El usuario hace clic en el enlace de verificación en el correo electrónico para confirmar su dirección de correo electrónico.</li>
+                                <li>El usuario es redirigido a la página de inicio de sesión de Airbnb y puede iniciar sesión en su cuenta recién creada.</li>
                             </ol></td>
                         </tr>
                         <tr>
                             <th>Criterios de aceptación</th>
                             <td><ol>
-                                <li>El usuario debe ingresar su numero de teléfono para recibir un código de verificación y registrarse.</li>
-                                <li>debe ingresar su nombre y apellido, edad, su correo electrónico, contraseñas</li>
+                                <li>El formulario de registro debe ser fácil de completar y no debe requerir información innecesaria.</li>
+                                <li>El correo electrónico de verificación debe enviarse de manera oportuna y contener un enlace de verificación válido.</li>
+                                <li>El proceso de verificación de correo electrónico debe ser fácil de entender y completar.</li>
+                                <li>Los usuarios deben poder iniciar sesión en su cuenta recién creada sin problemas.</li>
+                                <li>La contraseña debe cumplir con los requisitos de seguridad de Airbnb y ser fácil de restablecer si el usuario la olvida.</li> <!todo esto es de historias de usuario>
                             </ol></td>
                         </tr>
 
@@ -102,11 +108,15 @@
                     <input type="date" id="start" name="trip-start" value="2023-07-22" min="2023-01-01" max="2023-12-31"s><br><br>
                     <label for="range">rango</label>
                     <input type="range"><br><br>
-                    <label for="radio button">genero</label><br> 
-                    <input type="radio" name="hombre" value="mujer" id="mujer"><br>    
-                    <input type="radio" name="mujer" value="mujer" id="mujer"> <br>
+                    <label for="radio button"><b><i>¿cual es su Genero?</i></b></label><br> 
+                     <label for="radio button"><font color="#COCOCO">Mujer</font></label>
+                       <input type="radio" name="hombre" value="mujer" id="mujer"><br> 
+                     <label for="radio button"><font color="#D4AF37">Hombre</font></label>   
+                       <input type="radio" name="mujer" value="hombre" id="mujer"> <br>
+                    <form action="upload.php" method="POST" enctype="multipart/form-data"></form>
+                      <input type="file" name="archivo">
+                      <input type="submit" value="subir archivo">
                     <button value="registrar">Registrar</button>
-                    
             </body>
 
 
