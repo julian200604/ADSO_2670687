@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Iniciando con Git</title>
+        <link rel="stylesheet" href="css/style.css"
+
+    </head>
+            <body>
+                <h1>concepto de git</h1>
+                <h2>concepto de git</h2>
+                <h3>concepto de git</h3>
+                <h4>concepto de git</h4>
+                <h5>concepto de git</h5>
+                <h6>concepto de git</h6>
+                <p class="p1s">Git es un sistema de control de versiones nos permite llevar un historial de todos los cambios que existan en un proyecto, sirve para documentar y trazar cada uno de los cambios, en pocas palabras es una "fotocopiadora" de archivos que registra cada cambio que se hace en un proyecto.</p>
+                <h2>Principales comandos de Git</h2>
+                <ul>
+                    <li><strong>GIT INIT:</strong> Este comando sirve para inicializar un proyecto con git.</li> 
+                    <li><strong>GIT ADD:</strong> Permite agregar todos los archivos modificados y nuevos al area de preparación para ser incluidos en el siguiente commit.</li>
+                    <li><strong>GIT COMMIT -M "<MENSAJE>":</strong> Crea un nuevo commit con los cambios en el area de preparación y lo guarda en el historial de versiones del repositorio</li>
+                    <li><strong>GIT CONFIG --GLOBAL USER.NAME:</strong> Se utiliza para configurar el nombre del usuario de forma global.</li>
+                    <li><strong>GIT BRANCH:</strong> Sirve para ver todas las ramas en el repositorio y resalta la rama actual.</li>
+                    <li><strong>GIT CONFIG --GLOBAL USER.EMAIL:</strong> Se utiliza para configurar el email de forma global.</li>
+                    <li><strong>GIT PUSH:</strong> Envia tus commits locales al repositorio correspondiente.</li>
+                    <li><strong>GIT LOG:</strong> Mestra el historial de commits realizados en el repositorio, incluyendo detalles como el autor, la fecha y el mensaje del commit.</li>
+                    <li><strong>GIT CHECKOUT MAIN:</strong> Cuando por fuera de la rama main me premite ingresar a ella.</li>
+                    <li><strong>GIT REMOTE ADD ORIGIN:</strong> Para conectar con github</li>
+
+                </ul>
+                <h2 class="t2">REPOSITORIOS REMOTOS EN GIT</h2>
+                <ol> <!lista ordenada, siempore con etiqueta li>
+                    <li>
+                        <a href="contenido/GITHUB.html" target="_blank">GITHUB</a></li>  <!esto es para crear una etiqueta de enlace o hipervinculo, href establecer ruta especifica>
+                         <li>
+                            <a href="contenido/gitlab/gitlab.html" target="_blank">GITLAB</a></li>
+                            <li>
+                                <a href="contenido/gitlab/investigación/BITBUCKET.html" target="_blank">investigación</a></li>
+                </ol>
+                <h2>HISTORIAS DE USUARIO - iniciar sesión o registrarse Airbnb</h2>
+                <table border="1">
+                    <tr> <!filas>
+                        <th> <!columnas>
+                            ID historia
+                        </th>
+                        <th>
+                            HU2
+                        </th>
+                        <tr>
+                            <th>Nombre</th>
+                            <td>Iniciar sesión o registrarse</td>
+                        </tr>
+                        <tr>
+                            <th>peso</th>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <th>Requisito</th>
+                            <td>RF1 - Registro o inicio de sesión</td>
+                        </tr>
+                        <tr>
+                            <th>Rol</th>
+                            <td>Usuario</td>
+                        </tr>
+                        <tr>
+                            <th>Funcionalidad</th>
+                            <td>Registrarse o iniciar sesión en airbnb </td>
+                        </tr>
+                        <tr>
+                            <th>Resultado</th>
+                            <td>poder iniciar sesión o registrarse para navegar</td>
+                        </tr>
+                        <tr>
+                            <th>Flujo normal</th>
+                            <td><ol>
+                                <li>El usuario visita la pagina y hace clic en el boton iniciar sesión.</li>
+                                <li>El usuario completa el formulario de registro, que incluye su nombre, dirección de correo electrónico y una contraseña segur o en caso de iniciar sesión solamente correo y contraseña.</li>
+                                <li>Airbnb envía un correo electrónico de verificación a la dirección de correo electrónico proporcionada por el usuario.</li>
+                                <li>El usuario hace clic en el enlace de verificación en el correo electrónico para confirmar su dirección de correo electrónico.</li>
+                                <li>El usuario es redirigido a la página de inicio de sesión de Airbnb y puede iniciar sesión en su cuenta recién creada.</li>
+                            </ol></td>
+                        </tr>
+                        <tr>
+                            <th>Criterios de aceptación</th>
+                            <td><ol>
+                                <li>El formulario de registro debe ser fácil de completar y no debe requerir información innecesaria.</li>
+                                <li>El correo electrónico de verificación debe enviarse de manera oportuna y contener un enlace de verificación válido.</li>
+                                <li>El proceso de verificación de correo electrónico debe ser fácil de entender y completar.</li>
+                                <li>Los usuarios deben poder iniciar sesión en su cuenta recién creada sin problemas.</li>
+                                <li>La contraseña debe cumplir con los requisitos de seguridad de Airbnb y ser fácil de restablecer si el usuario la olvida.</li> <!todo esto es de historias de usuario>
+                            </ol></td>
+                        </tr>
+
+
+
+
+                    </tr>
+
+                </table>
+                <h2>FORMULARIO EN HTML5</h2>
+                <form action="" method="">
+                    <label for="">Digite el nombre</label> 
+                    <input type="text" placeholder="escriba su nombre" required=""><br><br>
+                    <label for="Email">Email</label>
+                    <input type="text" name="email" id="" placeholder="Escriba su email" required=""><br><br>
+                    <label for="password">contraseña</label>
+                    <input type="password" placeholder="contraseña" minlength="6"><br><br>
+                    <label for="date">fecha</label>
+                    <input type="date" id="start" name="trip-start" value="" min="2023-01-01" max="2023-12-31"s><br><br>
+                    <label for="range">rango</label>
+                    <input type="range"><br><br>
+                    <label for="radio "><b><i>¿cual es su Genero?</i></b></label><br> 
+                     <label for="radio "><font color="#COCOCO">hombre</font></label>
+                       <input type="radio" name="hombre" value="hombre" id="hombre" checked><br> 
+                     <label for="radio"><font color="#D4AF37">mujer</font></label>   
+                       <input type="radio" name="mujer" value="mujer" id="mujer" checked> <br>
+                    <form action="upload.php" method="POST" enctype="multipart/form-data"></form>
+                      <input type="file" name="archivo">
+                      <input type="submit" value="subir archivo"><br><br>
+                    <label for="dog-name">escoja un nombre para su perro</label>
+                    <select name="dog-names" id="dog-name">
+                        <option value=""></option>
+                        <option value="perrini">perrini</option>
+                        <option value="laila">laila</option>
+                    </select><br><br>
+                    
+                    <button value="registrar">Registrar</button>
+                    </form>
+                    <h2>VIDEO</h2>
+                    <video src="videos/Aprende Git en 15 Minutos.mp4" width="450px" height="450px" controls  autoplay>
+                        <h3>AUDIO</h3>
+                        <audio src="audios/himno.mp3" controls></audio>
+                    
+            </body>
+
+
+</html>
