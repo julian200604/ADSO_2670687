@@ -31,4 +31,6 @@ let total = parseInt(capinvertido) + parseInt(capinvertido * razon);
 
 alert("El total a ganar en un mes fue "+total);*/
 
+//ejercicio 6
+
  
