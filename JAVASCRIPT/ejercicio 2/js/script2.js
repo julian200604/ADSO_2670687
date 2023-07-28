@@ -15,13 +15,20 @@ let total = parseInt(sueldo) + parseInt(ventas*pventas);
 
 alert("en un mes ganare "+total);*/
 
-/*ejercicio 4*/
+/*ejercicio 4
 let compra = prompt("Ingrese el valor de su compra");
-let pventas= (25/100) 
-let descuento = (compra*pventas)
-let Tcompra = parseInt(compra-descuento);
+let descuento = (25/100);
+let preciodescu = (compra*descuento);
+let Tcompra = parseInt(compra-preciodescu);
 
-alert("Total a pagar "+Tcompra);
+alert("Total a pagar "+Tcompra);*/
 
+/*Ejercicio 5
+
+let capinvertido = prompt("escriba el valor del capital invertido");
+let razon = (2/100);
+let total = parseInt(capinvertido) + parseInt(capinvertido * razon);
+
+alert("El total a ganar en un mes fue "+total);*/
 
  
