@@ -67,7 +67,7 @@ let califin= parseInt(trabFinal*promedio3);
 
  alert("su total a pagar es "+totalPago);*/
 
- /*ejercicio 9*/
+ /*ejercicio 9
 
  let numero1=prompt("Ponga un número")
  let numero2=prompt("Ponga un número")
@@ -76,5 +76,5 @@ let califin= parseInt(trabFinal*promedio3);
  let alcuadro1=parseInt(numero1*numero1);
  let alcuadro2=parseInt(numero2*numero2);
  let alcuadro3=parseInt(numero3*numero3);
- alert("Este es el valor al cuadrado de cada número "+alcuadro1 +alcuadro2 +alcuadro3);
+ alert("Este es el valor al cuadrado de cada número "+alcuadro1 +alcuadro2 +alcuadro3);*/
  
